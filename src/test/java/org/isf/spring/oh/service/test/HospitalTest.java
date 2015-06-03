@@ -1,4 +1,4 @@
-package orgisf.spring.oh.service;
+package org.isf.spring.oh.service.test;
 import static org.assertj.core.api.Assertions.assertThat;
 
 import org.isf.spring.oh.repository.jdbc.Hospital;
