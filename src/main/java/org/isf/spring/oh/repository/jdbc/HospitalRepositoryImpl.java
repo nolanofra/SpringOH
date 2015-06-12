@@ -12,13 +12,13 @@ import org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public class HospitalRepositoryHelper implements HospitalRepository{
+public class HospitalRepositoryImpl implements HospitalRepository{
 
 	
 	private NamedParameterJdbcTemplate namedParameterJdbcTemplate;
 	
 	 @Autowired
-	public HospitalRepositoryHelper(DataSource dataSource){
+	public HospitalRepositoryImpl(DataSource dataSource){
 		 this.namedParameterJdbcTemplate = new NamedParameterJdbcTemplate(dataSource);
 	 }
 	
